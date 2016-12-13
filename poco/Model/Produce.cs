@@ -11,6 +11,9 @@ namespace poco.Model
         //don't have to declare a contructor method
         //one is provided for you "no-arguments contructor"
 
+        //but if you use a custom contructor
+        //a no-args constructor has to be made
+
         //this is a no-arguments contructor
         public Produce()
         {
@@ -25,6 +28,10 @@ namespace poco.Model
             Quantity = quantity;
         }
 
+
+        //this is a getter/setter method
+        //created by using the
+        //refactor->encapsulate field option
         private string name;
         public string Name
         {
@@ -38,6 +45,7 @@ namespace poco.Model
             set { weight = value; }
         }
 
+        //this is a getter/setter method
         public int Quantity { get; set; }
 
         //tells the compiler that you want to use
