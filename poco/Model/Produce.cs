@@ -69,6 +69,12 @@ namespace poco.Model
             base(name, weight, quantity)
         {
         }
+
+        //adds to base class' override
+        public override string ToString()
+        {
+            return "Fruit: " + base.ToString();
+        }
     }
 
     //declaring Vegetable as a subclass to Produce
@@ -83,6 +89,12 @@ namespace poco.Model
         public Vegetable(string name, double weight, int quantity) :
             base(name, weight, quantity)
         {
+        }
+        
+        //adds to base class' override
+        public override string ToString()
+        {
+            return "Vegetable: " + base.ToString();
         }
         
     }

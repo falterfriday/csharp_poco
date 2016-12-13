@@ -3,3 +3,4 @@ C:\Users\Patrick.Todd\Documents\Visual Studio 2013\Projects\03_console_applicati
 C:\Users\Patrick.Todd\Documents\Visual Studio 2013\Projects\03_console_applications\poco\poco\bin\Debug\poco.pdb
 C:\Users\Patrick.Todd\Documents\Visual Studio 2013\Projects\03_console_applications\poco\poco\obj\Debug\poco.exe
 C:\Users\Patrick.Todd\Documents\Visual Studio 2013\Projects\03_console_applications\poco\poco\obj\Debug\poco.pdb
+C:\Users\Patrick.Todd\Documents\Visual Studio 2013\Projects\03_console_applications\poco\poco\obj\Debug\poco.csprojResolveAssemblyReference.cache
