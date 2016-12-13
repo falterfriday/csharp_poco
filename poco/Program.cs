@@ -8,7 +8,7 @@ namespace poco //plain-old class objects
     {
         static void Main(string[] args)
         {
-            var produce = new List<object>();
+            var produce = new List<Produce>();
             
             //this creates a new object
             //assigns it to variable
@@ -35,8 +35,10 @@ namespace poco //plain-old class objects
 
             foreach (var item in produce)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(item + ", total weight: " + ProduceUtility.GetItemWeight(item) + "oz");
             }
+
+            Console.WriteLine("Total Weight: " + ProduceUtility.GetTotalWeight(produce) + "oz");
         }
     }
 }
